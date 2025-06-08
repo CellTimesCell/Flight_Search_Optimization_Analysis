@@ -7,15 +7,15 @@ class APIConfig:
     """Configuration settings for external APIs"""
 
     # Amadeus API Configuration
-    AMADEUS_API_KEY = "l9dIhchYgrq79DNizDZBncnVLcF2bY1T"
-    AMADEUS_API_SECRET = "8ZSGmMcG1Ph4sQwi"
+    AMADEUS_API_KEY = "your_api_key"
+    AMADEUS_API_SECRET = "your_api_secret"
     AMADEUS_BASE_URL = "https://test.api.amadeus.com"
     AMADEUS_TOKEN_URL = f"{AMADEUS_BASE_URL}/v1/security/oauth2/token"
     AMADEUS_FLIGHT_SEARCH_URL = f"{AMADEUS_BASE_URL}/v2/shopping/flight-offers"
     AMADEUS_REQUEST_LIMIT = 400
 
     # AviationStack API Configuration
-    AVIATIONSTACK_API_KEY = "c8c87b98e4a4a8dfd788c7c75a9e9a3f"
+    AVIATIONSTACK_API_KEY = "your_api"
     AVIATIONSTACK_BASE_URL = "http://api.aviationstack.com/v1"
     AVIATIONSTACK_REQUEST_LIMIT = 100
 
